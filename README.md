@@ -1,2 +1,2 @@
-# hs-summer-cs-school
+# highschool-summer-computerscience-school
 #### class with Amir Hesamian

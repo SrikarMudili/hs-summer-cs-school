@@ -1,2 +1,2 @@
-# highschool summer computerscience course 2020
+# highschool summer computer science course 2020
 #### class with Amir Hesamian

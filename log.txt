@@ -1,0 +1,60 @@
+   21  git
+   22  git --version
+   23  pwd
+   24  mkdir temp
+   25  git clone https://github.com/SrikarMudili/hs-summer-cs-school.git
+   26  ls
+   27  mv hs-summer-cs-school 
+   28  ls
+   29  mv hs-summer-cs-school/ temp
+   30  ls
+   31  cd to temp
+   32  cd temp
+   33  ls
+   34  cd hs-summer-cs-school/
+   35  ls
+   36  git status
+   37  git log
+   38  :q
+   39  ;q
+   40  git k
+   41  gitk
+   42  git log
+   43  git log -v
+   44  ls
+   45  clear
+   46  ls
+   47  mkdir hw 3
+   48  ls
+   49  rm
+   50  rm -r 3
+   51  rm -r hw
+   52  mkdir hw3
+   53  ls
+   54  cd hw3
+   55  mkdir java
+   56  mkdir python
+   57  ls
+   58  mv ../
+   59  mv ../City.java java/
+   60  mv ../Driver.java java/
+   61  cd ..
+   62  git status
+   63  git add .
+   64  git status
+   65  git commit
+   66  git push
+   67  sriikarm1
+   68  srikarm1
+   69  git push
+   70  git push
+   71  ls
+   72  mv ../State.java java/
+   73  open .
+   74  mv ../State.java hw3/
+   75  mv ../State.java hw3/Java/
+   76  mv ../State.java java/
+   77  open .
+   78  ls
+   79  clear
+   80  history > log.txt

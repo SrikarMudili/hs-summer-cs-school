@@ -3,3 +3,6 @@
 
 ## Karatsuba Multiplication
 #### Karatsuba Multiplication is used to quickly multiply 2 numbers together. The Karatsuba Algorithm was discovered by Anatoly Karatsuba in 1962 and he discovered the you compute the product of two large numbeers using three smaller products and some addition and subtraction. He found out that the method that required 4 multiplications now only required 3 which made it much faster. Long Multiplication is slow with a time complexity of O(n^2) while Karatsuba has a time complexity of O(n^1.58). In the Python Code there are no loops.
+
+## Quick Sort
+#### The Quick Sort is used to sort an array from low to high or high to low. Quicksort is one of the most algorithms in history, and it was invented by Tony Hoare in 1959 when recursion was still a new subject. When given an array, quicksort splits it into 3 new subarrays, less than a pivot variable, equal to the pivot variable, and greater than the pivot variable. Then it sorts the less than subarray and the greater than subarray and glues them back together to get the full sorted array. Quick Sort is very efficient and fast in sorting smaller arrays and data sizes. The time complexity of the Quick Sort is O(n log(n)) which is as good as sorting algorithms get.

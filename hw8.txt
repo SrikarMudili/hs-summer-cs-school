@@ -1,0 +1,4 @@
+Promise.resolve(...) means the promise is completed/resolved and then it returns some value, which can be anything. If there is a thenable it will then follow that thenable in the resolve.
+
+
+Promise.all([...]) method takes many different promises as an input and returns a single Promise that resolves to an array of all of the input promises. Only after the input's promises have resolved then this returned promise will resolve.

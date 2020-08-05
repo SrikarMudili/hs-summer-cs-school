@@ -1,0 +1,25 @@
+One-to-one relationship example: In a school database or in a work database, each student or worker has only one student id or worker id. Each student id and the worker id are assigned to only one person, so it is a one to one relationship. Another example is that each person has their own passport, and each passport has only one person assigned to it. 
+
+One-to-many relationship example: A very simple example would be a mother with many children, a one-to-many relationship. Another example would be one customer having many sales orders such as in amazon where one user can have many things in the shopping cart, making it a one-to-many relationship. Another example is one student can have a teacher, but that teacher probably has a whole classroom of students.
+
+Many-to-many relationship example: A student can register for many classes, and each class can include many students, making it a many-to-many relationship. Another example is customers can purchase many products, and products can be purchased by many customers.
+
+ORM stands for Object Relational Mapping. ORM is a technique that lets you query and change data from a database, but instead of writing raw SQL which is very time consuming and hard, you can use object-oriented programming and programming languages. ORM is basically a library that extracts away all of the code and manipulates it, instead of writing raw SQL the library will get it.
+
+The benefits of using ORM are much cleaner code, less duplicated code, it saves a lot of time, and it is very flexible.
+
+Entity Framework is an open source ORM framework for ADO.NET, which is a data access technology from Microsoft. It used to be a part of the .NET framework from Microsoft but version 6 of .NET framework separated from .NET framework. .NET framework is a software framework for building and running applications on Windows.
+
+Hibernate is an ORM framework for the Java programming language. Hibernate ORM is used to help an application achieve persistence. Persistence is where state outlives the process that created it; this is achieved by storing the state as data in computer storage.
+
+Sequelize.js is a Node.js ORM framework for Postgres, mySQL, mariaDB, SQLite, and Microsoft SQL Server. Sequelize is a powerful library in Javascript that makes it easy to manage an SQL database.
+
+Inner Join in SQL creates a new table by combining columns that have matching values. It is used to retrieve data that is present in both tables. One example is each student at a school can have a name, username, and an id. The school can have a forum where the students can chat with their usernames. Both tables have a username column so those can be joined to create a new table that can tell the name, username, and chat message from the forum.
+
+Full Outer Join in SQL returns unmatched rows from both tables into a new table. One example it can be used in is a group project or project management. If you have different tasks or projects you can assign each person to one task. Then if you input the data and run a Full Outer Join you can see what slots are empty. The query will return members who participate in projects, members who do not participate in any projects, and projects which do not have any members.
+
+Left Join in SQL returns all records from the left table and matched records from the right. The rest of the unmatched records on the right are NULL. Left Join can be used in online shopping websites, maybe even Amazon. You have one table for sales orders on the left and another for products on the right. The link between both can be a product_id column. When you left join it will return the names of the products and id of the order, if a product wasn’t bought it will show NULL.
+
+Right Join in SQL returns all records from the right table and matched records from the left. The rest of the unmatched records on the left are NULL. Right Join can be used for the same example as Left Join but the tables would be swapped.
+
+POSTGRES VS MYSQL: MySQL is famous for ease of use and speed while Postgres has many more advanced features such as table inheritance and function overloading. PostgreSQL has FULL OUTER JOIN while MySQL doesn’t. PostgreSQL is the most advanced open-source database but MySQL is the most popular. MySQL is a relational database which means it connects tables with rows while PostgreSQL is an object-relational database which is where the data is represented in objects, completely different. MySQL is the product of Oracle Corporation while PostgreSQL is a product of Global Development Group.

@@ -8,11 +8,11 @@ ORM stands for Object Relational Mapping. ORM is a technique that lets you query
 
 The benefits of using ORM are much cleaner code, less duplicated code, it saves a lot of time, and it is very flexible.
 
-Entity Framework is an open source ORM framework for ADO.NET, which is a data access technology from Microsoft. It used to be a part of the .NET framework from Microsoft but version 6 of .NET framework separated from .NET framework. .NET framework is a software framework for building and running applications on Windows.
+Entity Framework is an open-source ORM framework for ADO.NET, which is a data access technology from Microsoft. It used to be a part of the .NET framework from Microsoft but version 6 of Entity framework separated from the .NET framework. .NET framework is a software framework for building and running applications on Windows.
 
 Hibernate is an ORM framework for the Java programming language. Hibernate ORM is used to help an application achieve persistence. Persistence is where state outlives the process that created it; this is achieved by storing the state as data in computer storage.
 
-Sequelize.js is a Node.js ORM framework for Postgres, mySQL, mariaDB, SQLite, and Microsoft SQL Server. Sequelize is a powerful library in Javascript that makes it easy to manage an SQL database.
+Sequelize.js is a Node.js ORM framework for Postgres, MySQL, MariaDB, SQLite, and Microsoft SQL Server. Sequelize is a powerful library in Javascript that makes it easy to manage an SQL database.
 
 Inner Join in SQL creates a new table by combining columns that have matching values. It is used to retrieve data that is present in both tables. One example is each student at a school can have a name, username, and an id. The school can have a forum where the students can chat with their usernames. Both tables have a username column so those can be joined to create a new table that can tell the name, username, and chat message from the forum.
 
@@ -22,4 +22,4 @@ Left Join in SQL returns all records from the left table and matched records fro
 
 Right Join in SQL returns all records from the right table and matched records from the left. The rest of the unmatched records on the left are NULL. Right Join can be used for the same example as Left Join but the tables would be swapped.
 
-POSTGRES VS MYSQL: MySQL is famous for ease of use and speed while Postgres has many more advanced features such as table inheritance and function overloading. PostgreSQL has FULL OUTER JOIN while MySQL doesn’t. PostgreSQL is the most advanced open-source database but MySQL is the most popular. MySQL is a relational database which means it connects tables with rows while PostgreSQL is an object-relational database which is where the data is represented in objects, completely different. MySQL is the product of Oracle Corporation while PostgreSQL is a product of Global Development Group.
+POSTGRES VS MYSQL: MySQL is famous for ease of use and speed while Postgres has many more advanced features such as table inheritance and function overloading. PostgreSQL has FULL OUTER JOIN while MySQL doesn’t. PostgreSQL is the most advanced open-source database but MySQL is the most popular. MySQL is a relational database which means it connects tables with rows while PostgreSQL is an object-relational database which is where the data is represented in objects, completely different. MySQL is the product of Oracle Corporation while PostgreSQL is a product of the Global Development Group.
